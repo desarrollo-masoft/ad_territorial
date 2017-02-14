@@ -27,14 +27,12 @@ if ($resultRep !="" ) {
 	//$pdf->AddCol('fecha_documentos_legal',19,utf8_decode('Fecha'),'L');
 	$pdf->AddCol('nombre_subcategorias',30,'SubCategoria','L');
 	//$pdf->AddCol('nombre_tipo_documentos',40,'Tipo Documento','L');
-	$pdf->AddCol('ruc_cliente_proveedor',26,'RUC','L');
-	$pdf->AddCol('nombre_cliente_proveedor',50,'Cliente/Proveedor','L');
-	$pdf->AddCol('paginas_documentos_legal',20,'Paginas','C');
-	$pdf->AddCol('numero_documentos_legal',35,'# Documento','C');
-	$pdf->AddCol('numero_cheque_documento_legal',20,'# Cheque','C');
-	$pdf->AddCol('nombre_emision_documentos_legal',50,'Nombre Emision','C');
-	$pdf->AddCol('nombre_remitente_documentos_legal',40,'Nombre Remitente','C');
-	$pdf->AddCol('numero_control_documentos_legal',20,'# Control','C');
+	$pdf->AddCol('paginas_documentos_legal',10,'Pag.','C');
+	$pdf->AddCol('numero_documentos_legal',50,'# Documento','L');
+	$pdf->AddCol('numero_cheque_documento_legal',25,'# Cheque','L');
+	$pdf->AddCol('nombre_emision_documentos_legal',75,'Nombre Emision','L');
+	$pdf->AddCol('nombre_remitente_documentos_legal',75,'Nombre Remitente','L');
+	$pdf->AddCol('numero_control_documentos_legal',20,'# Control','L');
 	
 	
 	
