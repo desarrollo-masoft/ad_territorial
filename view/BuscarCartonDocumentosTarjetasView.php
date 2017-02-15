@@ -135,7 +135,7 @@
 					<tr> 
 				         <td>
 			           		<div class="right">
-			                    <a href="<?php echo $helper->url("Documentos","ReportexCartonTarjetas"); ?>&numero_carton_documentos=<?php echo $numero_carton_documentos; ?>" class="btn btn-info">Imprimir Reporte</a>
+			                    <a href="<?php echo $helper->url("Documentos","ReportexCartonTarjetas"); ?>&numero_carton_documentos=<?php echo $numero_carton_documentos; ?>" class="btn btn-info"  target="blank"  >Imprimir Reporte</a>
 			                </div>
 			             </td>
 			    
